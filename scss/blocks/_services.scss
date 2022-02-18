@@ -1,0 +1,37 @@
+@import "../vars";
+
+.services {
+    margin-top: 72px;
+
+    &__menu {
+        display: flex;
+        justify-content: space-between;
+        padding-bottom: 48px;
+    }
+
+    &__row {
+        width: 257px;
+        height: 223px;
+        text-align: center;
+    }
+
+    &__img {
+        width: 80px;
+        height: 80px;
+
+    }
+
+    &__service {
+        font-family: Roboto Slab;
+        font-size: 18px;
+        font-weight: 700;
+        color: #4E4E4E;
+    }
+
+    &__p {
+        font-family: Roboto;
+        font-size: 14px;
+        font-weight: 400;
+        color: black;
+    }
+}

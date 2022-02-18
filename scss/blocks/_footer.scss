@@ -1,0 +1,93 @@
+@import "../vars";
+
+.footer {
+    margin: 0;
+    padding: 0;
+    height: 484px;
+    background-color: $footer_bg;
+
+    &__box {
+        padding-top: 54px;
+        display: flex;
+        justify-content: space-between;
+
+    }
+
+    &__touch {
+        width: 255px;
+        height: 242px;
+        padding-bottom: 24px;
+    }
+
+    &__h3 {
+        font-family: Roboto Condensed;
+        font-style: 700;
+        font-size: 18px;
+        line-height: 22px;
+        line-height: 104%;
+        text-transform: uppercase;
+        color: #6C6C6C;
+        padding-bottom: 20px;
+
+    }
+
+    &__p {
+
+        font-family: Roboto;
+        font-style: 400;
+        font-size: 14px;
+        line-height: 24px;
+        line-height: 146%;
+        color: #CACACA;
+        padding-bottom: 12px;
+    }
+
+    &__tel {
+        text-decoration: none;
+        color: #fff;
+    }
+
+    &__p1 {
+        font-family: Roboto;
+        font-style: 400;
+        font-size: 14px;
+        line-height: 24px;
+        line-height: 146%;
+        color: #FFFFFF;
+    }
+
+
+
+    &__mail {
+        text-decoration: none;
+        color: #FFFFFF;
+    }
+
+
+
+    &__icon {
+        width: 22px;
+        height: 12px;
+
+    }
+
+    &__text {
+        font-family: Roboto;
+        color: #CACACA;
+        margin-left: 115px;
+        font-size: 14px;
+        margin-top: 64px;
+
+    }
+
+    &__line {
+
+        width: 1110px;
+        height: 0px;
+        color: #353535;
+        align-items: center;
+        margin-top: 64px;
+    }
+
+
+}

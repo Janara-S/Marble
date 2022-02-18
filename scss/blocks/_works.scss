@@ -1,0 +1,51 @@
+@import "../vars";
+
+.works {
+    height: 562px;
+
+    &__heading {
+        font-family: Roboto Condensed;
+        padding-top: 50px 0 22px 0;
+        font-size: 18px;
+        text-transform: uppercase;
+        color: #4E4E4E;
+        padding-bottom: 22px;
+    }
+
+    &__work {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    &__rectangle {
+        width: 353px;
+    }
+
+    &__h3 {
+        font-family:
+            Roboto Slab;
+        font-size: 18px;
+        font-weight: 700;
+        color: rgba(78, 78, 78, 1);
+
+    }
+
+    &__p {
+        font-family: Roboto Slab;
+        font-size: 13px;
+        font-weight: 700;
+        color: rgba(173, 173, 173, 1);
+        line-height: 20px;
+    }
+
+    &__p1 {
+        font-family: Roboto;
+        font-style: regular;
+        font-size: 14px;
+        line-height: 28px;
+        line-height: 171%;
+        color: #5C5C5C;
+    }
+
+
+}

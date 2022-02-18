@@ -1,0 +1,42 @@
+@import "../vars";
+
+.div {
+    margin: 0;
+    padding: 0;
+    height: 284px;
+    background-color: $div_bg;
+    
+    &__all {
+        text-align: center;
+    }
+
+    &__img {
+        margin: 67px 0 36px 0;
+        width: 37px;
+        height: 29px;
+
+
+    }
+
+    &__p {
+        font-family: Roboto Slab;
+        font-style: regular;
+        font-size: 20px;
+        line-height: 30px;
+        line-height: 114%;
+        text-align: center;
+        vertical-align: top;
+        color: #A1A1A1;
+
+
+    }
+
+    &__line {
+
+        width: 1100px;
+        height: 0px;
+        color: #353535;
+        align-items: center;
+        margin-bottom: 50px;
+    }
+}
